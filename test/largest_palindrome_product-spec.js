@@ -19,7 +19,7 @@ describe("Find The Largest Palindrome Product", function () {
     expect(product.palindromeNumber).to.equal(906609);
 
     // add your tests here
-    //
-    //
+    expect(product.factor_0).to.equal(993);
+    expect(product.factor_1).to.equal(913);
   });
 });
